@@ -1,0 +1,133 @@
+/*
+* Company : Dropskit
+* email : support@dropskit.com
+*/
+
+.spinner-border {
+    margin-left: 40%;
+}
+
+#overlay {
+    position        : fixed;
+      display     : none; 
+    width           : 100%;
+    height          : 100%;
+    top             : 0;
+    left            : 0;
+    right           : 0;
+    bottom          : 0;
+   /*  background-color: rgba(0, 0, 0, 0.5); */
+    z-index         : 2;
+    cursor          : pointer;
+}
+
+#text {
+    position      : absolute;
+    top           : 55%;
+    left          : 50%;
+    font-size     : 17px;
+    letter-spacing: 2px;
+    font-weight   : 600;
+    color         : #008002;
+    transform     : translate(-50%, -50%);
+    -ms-transform : translate(-50%, -50%);
+}
+
+.error-msg {
+    background-color: #f8d7da;
+    border-color    : #f5c6cb;
+    border          : 1px solid transparent;
+    color           : #721c24;
+    font-size       : 23px;
+    padding         : 0 0 10px 30px;
+    border-radius   : 5px;
+}
+
+.success-msg {
+    background-color: #d4edda;
+    border-color    : #c3e6cb;
+    border          : 1px solid transparent;
+    color           : #155724;
+    font-size       : 23px;
+    padding         : 0 0 10px 30px;
+    border-radius   : 5px;
+}
+
+.login-form {
+    top          : 200px;
+    border       : 1px solid rgba(34, 36, 38, .1);
+    border-radius: 5px;
+}
+
+.login-form input {
+    border       : 0;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(34, 36, 38, .1);
+}
+
+.login-form input:focus {
+    border-bottom: 1px solid #007bff;
+}
+
+.control {
+    border       : 1px solid rgba(34, 36, 38, .1);
+    border-radius: 5px;
+    margin       : 25px 0 15px 0;
+    padding      : 25px 0 25px 0;
+}
+
+.alert-danger,
+.alert-success {
+    height     : 30px;
+    font-size  : 13px;
+    font-weight: 600;
+    padding-top: 3px;
+}
+
+button#addNewBrand,
+.addNewBrand {
+    background-color: #008002;
+    color           : #ffffff;
+    width           : 100px;
+}
+
+button#deleteSelected,
+button#deleteAll {
+    background-color: #bebaba;
+    color           : #ffffff;
+}
+
+/* div#status{
+    height: 30px;
+} */
+
+.table-content {
+    margin-left: 30px;
+}
+
+.trashThis {
+    padding-right: 10px;
+}
+
+i.dropdown {
+    display: none;
+}
+
+#brand-inp {
+    padding: 25px 10px 25px 10px;
+}
+
+.custom-file {
+    height: 50px;
+}
+
+.custom-file-label {
+    height     : 50px;
+    padding-top: 13px;
+}
+
+label.custom-file-label::after {
+    /*  height     : 48px;
+    padding-top: 13px; */
+    display: none;
+}
