@@ -51,7 +51,7 @@ window.onload = () => {
                     `;
                 }
             });
-
+ 
             request.open('POST', 'add.php');
             request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             request.send(`add=true&data=${inp[0].value}`);
